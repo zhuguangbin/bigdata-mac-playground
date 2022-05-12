@@ -30,6 +30,10 @@
 
 1. [A LakeHouse Prototype Demo](docs/part-II/1.lakehouse.md)
 
+### Part III: 技巧篇
+
+1. [Intellij Remote Debug](docs/part-III/1.remote-debug.md)
+
 ## About This Repo
 
 大数据体系是一个快速发展的领域，各组件版本迭代非常快，且不断有好的项目涌现出来，本文档内容有可能随着时间推移而滞后。笔者将努力保持内容是最新且可用的，但是精力有限，如您发现问题，请提issue或者pull request来共同完善。
