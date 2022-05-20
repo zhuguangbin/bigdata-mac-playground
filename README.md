@@ -28,7 +28,8 @@
 
 ### Part II: 综合实战
 
-1. [A LakeHouse Prototype Demo](docs/part-II/1.lakehouse.md)
+1. [SparkSQL支持多Hive数据源联邦查询](docs/part-II/1.spark-multi-catalog.md)
+2. [A LakeHouse Prototype Demo](docs/part-II/2.lakehouse.md)
 
 ### Part III: 技巧篇
 
