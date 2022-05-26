@@ -23,8 +23,9 @@
 5. [Kafka](docs/part-I/5.kafka.md)
 6. [Flink](docs/part-I/6.flink.md)
 7. [Presto](docs/part-I/7.presto.md)
-8. [Kyuubi](docs/part-I/8.kyuubi.md)
-9. [Hudi](docs/part-I/9.hudi.md)
+8. [Hudi](docs/part-I/8.hudi.md)
+9. [Kyuubi](docs/part-I/9.kyuubi.md)
+
 
 ### Part II: 综合实战
 
