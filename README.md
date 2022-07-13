@@ -25,6 +25,7 @@
 7. [Presto](docs/part-I/7.presto.md)
 8. [Hudi](docs/part-I/8.hudi.md)
 9. [Kyuubi](docs/part-I/9.kyuubi.md)
+10. [Airflow](docs/part-I/10.airflow.md)
 
 
 ### Part II: 综合实战
