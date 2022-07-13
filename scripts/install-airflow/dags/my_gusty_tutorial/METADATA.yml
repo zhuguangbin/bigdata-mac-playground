@@ -1,0 +1,33 @@
+# This DAG lines up one-to-one with the Airflow tutorial:
+# https://airflow.apache.org/docs/stable/tutorial.html
+description: "My Gusty version of the DAG described by this Airflow tutorial: https://airflow.apache.org/docs/stable/tutorial.html"
+schedule_interval: "0 0 * * *"
+tags:
+  - tutorial
+default_args:
+    owner: zhuguangbin
+    depends_on_past: false
+    start_date: !days_ago 1
+    email: airflow@example.com
+    email_on_failure: false
+    email_on_retry: false
+    retries: 1
+    retry_delay: !timedelta 'minutes: 5'
+#   queue: bash_queue
+#   pool: backfill
+#   priority_weight: 10
+#   end_date: !datetime [2016, 1, 1]
+#   wait_for_downstream: false
+#   sla: !timedelta 'hours: 2'
+#   trigger_rule: all_success
+doc_md: |-
+  Hello and welcome to the gusty version of the basic Airflow tutorial. As you'll notice, this DAG looks exactly the same
+  as the `airflow_tutorial` DAG, only that each task is specified in its own `.yml` file in a directory called `gusty_tutorial`.
+  gusty's `create_dag` function just has to be pointed to this directory, and it will use your YAML specifications to construct the DAG.
+  We believe that as your DAG incurs more tasks, especially if the majority of your tasks utilize the same handful of operators
+  (e.g. generating tables in your data warehouse using SQL), being able to utilze to a file-based structure helps make your DAGs
+  more managable.
+
+  What's even nicer is **not every DAG needs to be a gusty-generated DAG!** This means you can try gusty out without having to commit to it.
+
+  gusty even has some additional convenient features. Head over to the `more_gusty` DAG to see a full display of current features.

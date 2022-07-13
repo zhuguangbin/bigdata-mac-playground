@@ -1,0 +1,4 @@
+operator: airflow.operators.dummy.DummyOperator
+dependencies:
+    - sleep
+    - templated
