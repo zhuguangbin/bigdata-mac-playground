@@ -1,0 +1,5 @@
+gusty==0.6.0
+apache-airflow[apache.spark,pagerduty,slack,mysql,oracle,mongo,http,jdbc]==2.3.2
+#apache-airflow[virtualenv,kerberos,apache.hdfs,apache.hive,apache.spark,apache.kylin,apache.livy,pagerduty,slack,mysql,oracle,mongo,http,jdbc]==2.3.2
+pyspark==3.1.2
+airflow-xtended-api
